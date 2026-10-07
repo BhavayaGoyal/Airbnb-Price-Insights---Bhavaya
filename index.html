@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Airbnb Price Insight</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-mark">AP</span>
+                <span>Airbnb Price Insight</span>
+            </a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#insights">Insights</a>
+                <a href="#predict">Predict</a>
+                <a href="#how-it-works">How It Works</a>
+            </nav>
+
+            <a href="#predict" class="nav-button">
+                Try Predictor
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-container">
+
+                <!-- LEFT SIDE -->
+
+                <div class="hero-content">
+
+                    <div class="small-label">
+                        <span></span>
+                        DATA-DRIVEN PRICE ANALYSIS
+                    </div>
+
+                    <h1>
+                        Discover the
+                        <span>Fair Price</span>
+                        for Your Airbnb.
+                    </h1>
+
+                    <p>
+                        An intelligent price insight system that analyzes
+                        Airbnb listing characteristics to estimate a fair
+                        nightly price for properties in Bengaluru.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#predict" class="primary-button">
+                            Predict Fair Price
+                            <span>→</span>
+                        </a>
+
+                        <a href="#how-it-works" class="secondary-button">
+                            Explore the Process
+                        </a>
+
+                    </div>
+
+                    <div class="hero-note">
+                        Built using Bengaluru Airbnb listing data
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+
+                <div class="hero-visual">
+
+                    <div class="visual-background"></div>
+
+                    <div class="property-card">
+
+                        <div class="property-image">
+
+                            <div class="image-tag">
+                                Bengaluru
+                            </div>
+
+                            <div class="image-content">
+                                <span>₹</span>
+                            </div>
+
+                        </div>
+
+                        <div class="property-details">
+
+                            <div>
+                                <p class="property-label">
+                                    ESTIMATED FAIR PRICE
+                                </p>
+
+                                <h2>
+                                    ₹2,850
+                                    <small>/ night</small>
+                                </h2>
+                            </div>
+
+                            <div class="price-indicator">
+                                <span>↗</span>
+                                Price Insight
+                            </div>
+
+                        </div>
+
+                        <div class="property-features">
+
+                            <div>
+                                <strong>2</strong>
+                                <span>Bedrooms</span>
+                            </div>
+
+                            <div>
+                                <strong>2</strong>
+                                <span>Bathrooms</span>
+                            </div>
+
+                            <div>
+                                <strong>4</strong>
+                                <span>Guests</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Floating card -->
+
+                    <div class="floating-card">
+
+                        <div class="floating-icon">
+                            ✓
+                        </div>
+
+                        <div>
+                            <strong>Fair Price Detected</strong>
+                            <p>Based on listing features</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECT STATS ================= -->
+
+        <section id="insights" class="stats-section">
+
+            <div class="stats-container">
+
+                <div class="stats-intro">
+                    <p>PROJECT SNAPSHOT</p>
+                    <h2>
+                        Turning listing data into
+                        <span>price insight.</span>
+                    </h2>
+                </div>
+
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-number">
+                            6,002
+                        </div>
+
+                        <p>
+                            Airbnb Listings
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-number">
+                            68
+                        </div>
+
+                        <p>
+                            Dataset Features
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-number">
+                            Bengaluru
+                        </div>
+
+                        <p>
+                            Primary Market
+                        </p>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-number">
+                            ML
+                        </div>
+
+                        <p>
+                            Price Prediction
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PREDICTION ================= -->
+
+        <section id="predict" class="prediction-section">
+
+            <div class="prediction-container">
+
+                <div class="prediction-heading">
+
+                    <div class="small-label">
+                        <span></span>
+                        PRICE PREDICTOR
+                    </div>
+
+                    <h2>
+                        Estimate your Airbnb's
+                        <span>fair nightly price.</span>
+                    </h2>
+
+                    <p>
+                        Enter the basic characteristics of your listing.
+                        The prediction model will use these details to
+                        estimate an expected nightly price.
+                    </p>
+
+                </div>
+
+
+                <div class="prediction-layout">
+
+                    <!-- FORM -->
+
+                    <div class="form-card">
+
+                        <div class="form-header">
+
+                            <div>
+                                <h3>Listing Details</h3>
+                                <p>
+                                    Tell us about the property
+                                </p>
+                            </div>
+
+                            <span class="step-number">
+                                01
+                            </span>
+
+                        </div>
+
+
+                        <form id="predictionForm">
+
+                            <!-- Room Type -->
+
+                            <div class="form-group">
+
+                                <label for="roomType">
+                                    Room Type
+                                </label>
+
+                                <select id="roomType" required>
+
+                                    <option value="">
+                                        Select room type
+                                    </option>
+
+                                    <option value="Entire home/flat">
+                                        Entire home / flat
+                                    </option>
+
+                                    <option value="Private room">
+                                        Private room
+                                    </option>
+
+                                    <option value="Shared room">
+                                        Shared room
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- Bedrooms -->
+
+                            <div class="form-group">
+
+                                <label for="bedrooms">
+                                    Bedrooms
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="bedrooms"
+                                    min="1"
+                                    placeholder="e.g. 2"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- Bathrooms -->
+
+                            <div class="form-group">
+
+                                <label for="bathrooms">
+                                    Bathrooms
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="bathrooms"
+                                    min="1"
+                                    step="0.5"
+                                    placeholder="e.g. 2"
+                                    required
+                                >
+
+                            </div>
+                            <!-- Beds -->
+                            <div class="form-group">
+                            <label for="beds">
+                                Beds
+                            </label>
+
+                            <input
+                                    type="number"
+                                    id="beds"
+                                    min="1"
+                                    placeholder="e.g. 2"
+                                    required
+                            >
+                            </div>
+
+
+                            <!-- Capacity -->
+
+                            <div class="form-group">
+
+                                <label for="capacity">
+                                    Person Capacity
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="capacity"
+                                    min="1"
+                                    placeholder="e.g. 4"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- City -->
+
+                            <div class="form-group full-width">
+
+                                <label for="city">
+                                    City / Location
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="city"
+                                    value="Bengaluru"
+                                    placeholder="Enter location"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- Actual Price -->
+
+                            <div class="form-group full-width">
+
+                                <label for="actualPrice">
+                                    Current Nightly Price
+                                    <span>(Optional for comparison)</span>
+                                </label>
+
+                                <div class="price-input">
+
+                                    <span>₹</span>
+
+                                    <input
+                                        type="number"
+                                        id="actualPrice"
+                                        min="0"
+                                        placeholder="e.g. 3000"
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="predict-button"
+                            >
+
+                                <span>
+                                    Predict Fair Price
+                                </span>
+
+                                <span>→</span>
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+
+                    <!-- RESULT -->
+
+                    <div class="result-panel">
+
+                        <div class="result-top">
+
+                            <span class="result-label">
+                                YOUR PRICE INSIGHT
+                            </span>
+
+                            <div class="result-status">
+                                Ready
+                            </div>
+
+                        </div>
+
+
+                        <div class="result-main">
+
+                            <p>
+                                Estimated Fair Price
+                            </p>
+
+                            <h2 id="predictedPrice">
+                                ₹—
+                            </h2>
+
+                            <span>
+                                per night
+                            </span>
+
+                        </div>
+
+
+                        <div class="result-divider"></div>
+
+
+                        <div class="comparison">
+
+                            <div>
+                                <span>
+                                    Current Price
+                                </span>
+
+                                <strong id="currentPrice">
+                                    ₹—
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    Price Difference
+                                </span>
+
+                                <strong id="priceDifference">
+                                    —
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            class="comparison-result"
+                            id="comparisonResult"
+                        >
+
+                            <div class="result-icon">
+                                ✦
+                            </div>
+
+                            <div>
+                                <strong>
+                                    Waiting for prediction
+                                </strong>
+
+                                <p>
+                                    Enter your listing details to
+                                    generate a price insight.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="result-note">
+
+                            <span>ⓘ</span>
+
+                            The predicted price represents an estimated
+                            fair price based on the trained model.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section id="how-it-works" class="process-section">
+
+            <div class="process-container">
+
+                <div class="process-heading">
+
+                    <div class="small-label">
+                        <span></span>
+                        HOW IT WORKS
+                    </div>
+
+                    <h2>
+                        From listing data to
+                        <span>price insight.</span>
+                    </h2>
+
+                    <p>
+                        The project follows a simple machine learning
+                        workflow to transform Airbnb data into useful
+                        pricing information.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Listing Details
+                        </h3>
+
+                        <p>
+                            Property characteristics such as room type,
+                            bedrooms, bathrooms and capacity are provided.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-line"></div>
+
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Data Analysis
+                        </h3>
+
+                        <p>
+                            Airbnb data is cleaned and prepared before
+                            being used for machine learning.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-line"></div>
+
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Price Prediction
+                        </h3>
+
+                        <p>
+                            A regression model estimates the expected
+                            nightly price for the listing.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-line"></div>
+
+
+                    <div class="process-card">
+
+                        <div class="process-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Price Insight
+                        </h3>
+
+                        <p>
+                            The estimated price can be compared with the
+                            current listing price.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECT PURPOSE ================= -->
+
+        <section class="purpose-section">
+
+            <div class="purpose-container">
+
+                <div class="purpose-content">
+
+                    <div class="small-label">
+                        <span></span>
+                        PROJECT OBJECTIVE
+                    </div>
+
+                    <h2>
+                        Making Airbnb pricing
+                        easier to understand.
+                    </h2>
+
+                    <p>
+                        Airbnb listings can have very different prices
+                        depending on their characteristics. This project
+                        uses historical listing data and machine learning
+                        to provide a simple reference price for a property.
+                    </p>
+
+                    <a href="#predict" class="primary-button">
+                        Try the Predictor
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="purpose-box">
+
+                    <div class="purpose-box-top">
+                        <span>PRICE ANALYSIS</span>
+                        <span>01</span>
+                    </div>
+
+                    <div class="mini-chart">
+
+                        <div class="chart-bar bar-1"></div>
+                        <div class="chart-bar bar-2"></div>
+                        <div class="chart-bar bar-3"></div>
+                        <div class="chart-bar bar-4"></div>
+                        <div class="chart-bar bar-5"></div>
+                        <div class="chart-bar bar-6"></div>
+
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>Low</span>
+                        <span>Expected</span>
+                        <span>High</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+                    <span class="logo-mark">AP</span>
+                    Airbnb Price Insight
+                </div>
+
+                <p>
+                    A beginner-level machine learning project for
+                    Airbnb price analysis and prediction.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#predict">Predict</a>
+                <a href="#how-it-works">How It Works</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Airbnb Price Insight
+            </p>
+
+            <p>
+                MCA Data Science Semester 1 Project
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
